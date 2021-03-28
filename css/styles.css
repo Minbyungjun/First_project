@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&display=swap");
 @import "reset.css";
 @import "status-bar.css";
 @import "variables.css";
 
 body {
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Heebo", sans-serif;
 }
 
 .Welcome-header {
@@ -13,14 +13,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-weight: 700px;
+  font-weight: 500px;
 }
 .Welcome-header__Title {
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 20px;
 }
 .Welcome-header__text {
-  width: 60%;
+  width: 80%;
   opacity: 0.5;
 }
 
