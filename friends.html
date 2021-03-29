@@ -8,6 +8,7 @@
     <title>Friends - Kokoa Clone</title>
 </head>
 <body>
+    <!-- Status-bar 부분-->
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -22,20 +23,73 @@
             <i class="fas fa-bolt"></i>
         </div>
     </div>
+    <!-- header 부분-->
+    <hedaer class="screen-header">
+        <h1 class="screen-header__Title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+    </hedaer>
+    <!--friends-display-link 부분-->
+    <a id="friends-display-link">
+        <i class="fas fa-info-circle"></i>Friends' Names Display
+        <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
 
+    <!--Friends의 사진, 텍스트 박스 부분-->
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="http://www.bomunsa.or.kr/img/02/0420_i01.jpg" class="user-component__avatar user-component__avatar--xl"/>
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Buddah</h4>
+                    <!--<h6 class="user-component__subtitle">this text whataever</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>channel</span>
+                <i class="fas fa-chevron-up"></i>
+            </div>
+        </div>
+        <!--channel, 밑에 부분-->
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://w.namu.la/s/dff9a691d8de1e8559a2663dccd161173c75c2cb31bc9aabcdada6e2f4ebaa67f13dda416632faddd7d6e1df65714f8b9be8e25cb3b71c0d6ecca622fb3381e5043cf4d132ab974cf1a1446c57308df72e6d423d7bc929ca5a48140f24175ea1" class="user-component__avatar user-component__avatar--sm"/>
+                <div class="user-component__text">
+                    <h4 class="user-component__title user-component__title-not-bold">Channel</h4>
+                    <!--<h6 class="user-component__subtitle">this text whataever</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span>2</span> <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+        </div>
+    </main>
+
+    <!--navigation 부분-->
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
                 <a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a>
             </li>
             <li class="nav__btn">
-                <a class="nav__link" href="#"><i class="far fa-comment fa-2x"></i></a>
+                <a class="nav__link" href="#">
+                    <span class="nav__notification">1</span>
+                    <i class="far fa-comment fa-2x"></i></a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
             </li>
             <li class="nav__btn">
-                <a class="nav__link" href="#"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+                <a class="nav__link" href="#">
+                    <span class="nav__circle">1</span>
+                    
+                    <i class="fas fa-ellipsis-h fa-2x"></i></a>
             </li>
         </ul>
     </nav>
