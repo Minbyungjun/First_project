@@ -4,6 +4,7 @@
   align-items: center;
   padding: var(--horizontal-space);
   padding-top: 50px;
+  margin-bottom: 15px;
 }
 
 .screen-header__Title {
@@ -12,5 +13,19 @@
 }
 
 .screen-header__icons span {
+  position: relative;
   margin-left: 25px;
+}
+
+.screen-header__point {
+  background-color: tomato;
+  color: tomato;
+  display: flex;
+  position: absolute;
+  font-size: 0.5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  left: 75px;
+  top: -30px;
 }

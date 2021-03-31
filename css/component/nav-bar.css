@@ -24,18 +24,9 @@
 }
 
 .nav__notification {
-  background-color: tomato;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: 500;
   position: absolute;
-  left: 22px;
-  top: -15px;
+  left: 5px;
+  top: -22px;
 }
 
 .nav__circle {
