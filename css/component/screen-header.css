@@ -29,3 +29,16 @@
   left: 75px;
   top: -30px;
 }
+
+.screen-header__point-more {
+  background-color: tomato;
+  color: tomato;
+  display: flex;
+  position: absolute;
+  font-size: 0.5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  left: 125px;
+  top: -30px;
+}
