@@ -1,0 +1,41 @@
+#chat-screens {
+  background-color: #abc1d1;
+  height: 11000vh;
+}
+
+#chat-screens .alt-header,
+#chat-screens .status-bar {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  background-color: #abc1d1;
+}
+.chat-screen__header {
+  background-color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  padding: 5px 10px;
+  width: 200px;
+  color: white;
+  opacity: 0.5;
+  border-radius: 30px;
+}
+
+.chat-screen__column {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.chat-timestamp {
+  margin-top: 150px;
+}
+
+#chat-screens .alt-header {
+  z-index: 1;
+}
+
+#chat-screens .status-bar {
+  z-index: 2;
+}
