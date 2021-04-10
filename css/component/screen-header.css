@@ -42,3 +42,28 @@
   left: 125px;
   top: -30px;
 }
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes transY {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 3s linear infinite;
+}
+
+.screen-header__icons i:hover {
+  animation: transY 1s ease-in-out infinite;
+}
