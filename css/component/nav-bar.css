@@ -25,7 +25,7 @@
 
 @keyframes notificationAnimation {
   0% {
-    trranform: none;
+    transform: none;
   }
   50% {
     transform: translateY(-5px) rotateY(180deg);
