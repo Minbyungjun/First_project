@@ -97,6 +97,20 @@
   align-items: center;
   font-size: 15px;
 }
+
+@keyframes heartBeat {
+  from {
+  }
+  to {
+    transform: scale(1.2);
+    color: red;
+  }
+}
+
+.open-post__photo-heart i:hover {
+  animation: heartBeat 1s ease-in-out infinite;
+}
+
 .open-post__photo-heart span {
   margin-left: 5px;
 }
